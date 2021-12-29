@@ -13,7 +13,7 @@
 
 ## *Android Versions*
 
-<img src = "Versions.png" alt = "Android Versions" width = 80%>
+<img src = "Versions.png" alt = "Android Versions" width = 80%/>
 
 ## *Android Features*
 
@@ -29,7 +29,7 @@ The base adroid system supports features such as
 
 ## *Andoroid Architecture*
 
-<img src = "Architecture.png" alt = "Android Versions" width = 70%>
+<img src = "Architecture.png" alt = "Android Versions" width = 70%/>
 
 ## *Android Market*
 
