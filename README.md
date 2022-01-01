@@ -1,9 +1,9 @@
 # *Android Application Development*
 
-# *Environment - Android Studio*
+## *Environment - Android Studio*
 
 ## *Developed Applications*
-* Application1 - [Understanding Architecture](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App1)
+* Application1 - [Understanding Logs](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App1)
 * Application2 - [Adding Colors](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App2)
 
 ## *Introduction*
