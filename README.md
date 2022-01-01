@@ -14,6 +14,7 @@
     * Text hint
 * Application3 - [ID Application](https://github.com/darsigangothri06/Android-Application-Development/tree/IDApp)
 * Application4 - [Finding Temperature using circket chirps](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App4)
+* Application5 - [Explicit Intent - Sending and Receiving Data](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App5)
 
 ## *Introduction*
 
