@@ -5,6 +5,13 @@
 ## *Developed Applications*
 * Application1 - [Understanding Logs](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App1)
 * Application2 - [Adding Colors](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App2)
+  * Understanding 
+    * `colors.xml`, `string.xml`
+    * Linear Layout
+    * Layout margin
+    * colorPrimary, colorPrimaryDark etc
+    * Layout gravity
+    * Text hint
 
 ## *Introduction*
 
