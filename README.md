@@ -89,3 +89,12 @@ The base adroid system supports features such as
 * Single activity or service to perform a requested action or the set of broadcast receivers to respond to the broadcast announcement etc.
 * It does by comparing the content of the intent object to intent filters which are structures assoicated with components that can potentially receiving things.
 * Ex: Dial a call, launch website etc.
+
+## *Fragments*
+* Fragment represents a behaviour or a portion of user interface in fragment activity
+* You can combine multiple fragments in a single activity to build a multi pane user interface and reuse a fragment in multiple activities.
+* New in Android 3.0
+* Usable in previous versions in compatibility library
+* A fragment has its own lifecycle and is directly affected by the activity's lifecycle that hosts the fragment
+* If the activity gets paused or destroyed, so will all fragments on the activity.
+* Fragments should be modular and reusable.
