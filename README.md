@@ -3,8 +3,8 @@
 ## *Environment - Android Studio*
 
 ## *Developed Applications*
-* Application1 - [Understanding Logs](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App1)
-* Application2 - [Adding Colors](https://github.com/darsigangothri06/Android-Application-Development/tree/main/IDApp)
+* Application - [Understanding Logs](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App1)
+* Application - [Adding Colors](https://github.com/darsigangothri06/Android-Application-Development/tree/main/IDApp)
   * Understanding 
     * `colors.xml`, `strings.xml`
     * Linear Layout
@@ -12,18 +12,24 @@
     * colorPrimary, colorPrimaryDark etc
     * Layout gravity
     * Text hint
-* Application3 - [ID Application](https://github.com/darsigangothri06/Android-Application-Development/tree/IDApp)
-* Application4 - [Finding Temperature using circket chirps](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App4)
-* Application5 - [Explicit Intent - Sending and Receiving Data](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App5)
+* Application - [ID Application](https://github.com/darsigangothri06/Android-Application-Development/tree/IDApp)
+* Application - [Finding Temperature using circket chirps](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App4)
+* Application - [Explicit Intent - Sending and Receiving Data](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App5)
     * Send data from main activity to sister activity - using `putExtra()`
     * Receiving data from sister activity to main activity - `startActivityForResult()`
     * Overriding `onActivityResult()`
 
-* Application6 - [Implicit Intents - Call, Call a friend, Map, Webpage](https://github.com/darsigangothri06/Android-Application-Development)
+* Application - [Implicit Intents - Call, Call a friend, Map, Webpage](https://github.com/darsigangothri06/Android-Application-Development)
     * Call - Opening dialer (Asking for application which it has to open)
     * Call a friend - Opening dialer with a default telephone number - `tel:`
     * Maps - Open maps with default location - `geo:0,0?q=`
     * Webpage - Opens a webpage with default address - `Uri.parse()`
+
+* Application - [Vector Assets](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App6)
+    * Understanding Vector Assests
+    * Understanding `setImageResource()`
+    * Clickable attribute
+    * Linear Layout
 
 ## *Introduction*
 
@@ -78,6 +84,3 @@ The base adroid system supports features such as
 * Single activity or service to perform a requested action or the set of broadcast receivers to respond to the broadcast announcement etc.
 * It does by comparing the content of the intent object to intent filters which are structures assoicated with components that can potentially receiving things.
 * Ex: Dial a call, launch website etc.
-* 
-
-* 
