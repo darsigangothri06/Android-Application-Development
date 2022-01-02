@@ -31,6 +31,11 @@
     * Clickable attribute
     * Linear Layout
 
+* Application - [Create a Contact](https://github.com/darsigangothri06/Android-Application-Development/tree/main/App8)
+    * Sending data from one activity to other activity
+    * Using clickables for vector assets
+    * Colors for vector assets
+
 ## *Introduction*
 
 > What is Android?
