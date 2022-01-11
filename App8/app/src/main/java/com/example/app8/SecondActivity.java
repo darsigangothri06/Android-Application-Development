@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
-    EditText etName, etNumber, etWebsite,etLocation;
+    EditText etName, etNumber, etWebsite,etLocation, etEmail;
     ImageView ivHappy,ivNeutral,ivSad;
 
     @Override
@@ -22,6 +22,8 @@ public class SecondActivity extends AppCompatActivity {
         etNumber = findViewById(R.id.etNumber);
         etWebsite = findViewById(R.id.etWebsite);
         etLocation = findViewById(R.id.etLocation);
+        etEmail = findViewById(R.id.etEmail);
+
         ivHappy = findViewById(R.id.ivHappy);
         ivNeutral = findViewById(R.id.ivNeutral);
         ivSad = findViewById(R.id.ivSad);
@@ -29,7 +31,7 @@ public class SecondActivity extends AppCompatActivity {
         ivHappy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(etName.getText().toString().isEmpty() || etName.getText().toString().isEmpty() || etWebsite.getText().toString().isEmpty() || etLocation.getText().toString().isEmpty())
+                if(etName.getText().toString().isEmpty() || etNumber.getText().toString().isEmpty())
                     Toast.makeText(SecondActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else
                 {
@@ -37,12 +39,14 @@ public class SecondActivity extends AppCompatActivity {
                     String number = etNumber.getText().toString().trim();
                     String website = etWebsite.getText().toString().trim();
                     String location = etLocation.getText().toString().trim();
+                    String email = etEmail.getText().toString().trim();
 
                     Intent intent = new Intent(SecondActivity.this,ThirdActivity.class);
                     intent.putExtra("name",name);
                     intent.putExtra("number",number);
                     intent.putExtra("website",website);
                     intent.putExtra("location",location);
+                    intent.putExtra("email",email);
                     intent.putExtra("expr","happy");
                     startActivity(intent);
                 }
@@ -52,7 +56,7 @@ public class SecondActivity extends AppCompatActivity {
         ivNeutral.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(etName.getText().toString().isEmpty() || etName.getText().toString().isEmpty() || etWebsite.getText().toString().isEmpty() || etLocation.getText().toString().isEmpty())
+                if(etName.getText().toString().isEmpty() || etNumber.getText().toString().isEmpty())
                     Toast.makeText(SecondActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else
                 {
@@ -75,8 +79,8 @@ public class SecondActivity extends AppCompatActivity {
         ivSad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(etName.getText().toString().isEmpty() || etName.getText().toString().isEmpty() || etWebsite.getText().toString().isEmpty() || etLocation.getText().toString().isEmpty())
-                    Toast.makeText(SecondActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
+                if(etName.getText().toString().isEmpty() || etNumber.getText().toString().isEmpty())
+                   Toast.makeText(SecondActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else
                 {
                     String name = etName.getText().toString().trim();
