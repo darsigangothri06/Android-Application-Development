@@ -35,6 +35,7 @@
     * Sending data from one activity to other activity
     * Using clickables for vector assets
     * Colors for vector assets
+* Application - [Fragments](https://github.com/darsigangothri06/Android-Application-Development/tree/main/Fragments)
 
 ## *Introduction*
 
